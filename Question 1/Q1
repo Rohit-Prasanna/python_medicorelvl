@@ -1,0 +1,16 @@
+Find the instructions given below for the task. This task consists of 3 Parts i.e. 3 Questions.
+Question-1
+
+File Handling is one of the basic important task when it comes to building machine learning models or neural networks. Building a good model always starts with finding datasets and processing it, for which, file handling acts as a stepping stone.
+
+Write a python program that reads the contents from the given file ‘onelinefile.txt’. The file contains a single line which is of the format (int)(string)(float)(string) repeatedly. For e.g.
+1Aaa3.5Maths2Bbb4.2Physics3Ccc7.62Chemistry
+
+Your main task is to split the contents of the given file based on their format and write it into a .csv file say ‘Filename2.csv’. For e.g. the above txt file should be converted into a csv file such that the contents look like this:
+1,Aaa,3.5,Maths
+2,Bbb,4.2,Physics
+3,Ccc,7.62,Chemistry
+
+Contents of ‘onelinefile.txt’
+
+1Aaa3.5Maths2Bbb4.2Physics3Ccc7.62Chemistry4Ddd9.55Biology5Eee4.0Social6Fff7.6English7Ggg3.111Maths8Hhh9.99Physics9Iii1.23Civics
